@@ -20,8 +20,8 @@ SkillSwap is a platform for exchanging and gaining new skills and knowledge. Con
 1. Skill Search
    * Search for new skill user want to learn
 2. Arranging Appointment
-   * Communication with other users to arranging the meeting
-   * Calendar can by sync with other tools (Google Calendar)
+   * Communication with other users for arranging meetings
+   * Calendar can be synced with other tools (Google Calendar)
    * Group meeting
 3. Rating and Feedback
    * After every meeting users can rate and comment mentor or student 
