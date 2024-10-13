@@ -1,5 +1,5 @@
 # SkillSwap
 ## Developers
-* Domina
+* Domina Šušak 
 * Petra Pelivan
 * Ivan Čuljak
