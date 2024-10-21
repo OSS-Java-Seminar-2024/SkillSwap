@@ -24,4 +24,12 @@ SkillSwap is a platform for exchanging and gaining new skills and knowledge. Con
    * Calendar can be synced with other tools (Google Calendar)
    * Group meeting
 3. Rating and Feedback
-   * After every meeting users can rate and comment mentor or student 
+   * After every meeting users can rate and comment mentor or student
+  
+
+
+
+![image](https://github.com/user-attachments/assets/ddac904d-9d8d-4021-9fa3-00502c94c9ad)
+
+
+
