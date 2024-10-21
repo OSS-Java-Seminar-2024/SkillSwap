@@ -32,9 +32,9 @@ SkillSwap is a platform for exchanging and gaining new skills and knowledge. Con
 3. Points can be exchanged for being taught lessons at a same rate as they are earned; one point gets the user one minute of lessons
 4. Experience level can be sorted into three groups: beginner, intermediate and advanced
 5. Each group has a corresponding range of lesson duration:
-   *Beginner --> 15-45 minutes
-   *intermediate --> 30-90 minutes
-   *Advanced --> 45-150 minutes
+   * Beginner --> 15-45 minutes
+   * Intermediate --> 30-90 minutes
+   * Advanced --> 45-150 minutes
 6. A canceled lesson results in negative points for the responsible user
 7. Five consecutive perfectly rated lessons earn the teacher extra points
    
