@@ -42,7 +42,8 @@ SkillSwap is a platform for exchanging and gaining new skills and knowledge. Con
 
 
 
-![image](https://github.com/user-attachments/assets/ddac904d-9d8d-4021-9fa3-00502c94c9ad)
 
+
+![project2 1](https://github.com/user-attachments/assets/8cd16161-3bde-4337-88e7-bb436107d7d7)
 
 
