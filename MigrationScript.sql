@@ -50,7 +50,7 @@ CREATE TABLE Lessons (
     FOREIGN KEY (course_id) REFERENCES Courses(id) ON DELETE CASCADE
 );
 
--- Table: Reviews
+
 CREATE TABLE Reviews (
     id BIGSERIAL PRIMARY KEY,
     course_id INTEGER UNIQUE, 
