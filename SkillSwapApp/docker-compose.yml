@@ -1,27 +1,32 @@
-version: '3.8'
+version: '3.9'
 services:
   db:
-    image: postgres:13
+    image: postgres
     container_name: postgres-db
     environment:
       - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=password
-      - POSTGRES_DB=mydb
+      - POSTGRES_PASSWORD=pass
+      - POSTGRES_DB=SkillSwap
     ports:
       - "5432:5432"
     networks:
       - spring-boot-network
   spring:
-    datasource:
-    image: your-spring-boot-image
+    image: 'postgres:latest'
     container_name: SkillSwapApplication
     ports:
-      - "8080:8080"
+      - "8000:8080"
     environment:
-      - SPRING_DATASOURCE_URL=jdbc:postgresql://postgresql-db:5432/mydb
-      - SPRING_DATASOURCE_USERNAME=root
-      - SPRING_DATASOURCE_PASSWORD=rootpassword
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=pass
+      - DOCKER_HOST=pipe:////./pipe/dockerEngine
     depends_on:
-      - postgresql-db
+      - db
+    networks:
+      - spring-boot-network
+networks:
+  spring-boot-network:
+    driver: bridge
+
 
 
