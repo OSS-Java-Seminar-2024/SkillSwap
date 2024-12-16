@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Page</title>
+    <link rel="stylesheet" href="../static/css/login.css">
+</head>
+<body>
+<div class="login"> <!--style="background-image: url('../static/images/login_image.webp'); background-size: cover; background-position: center center;"> -->
+    <h2>Login</h2>
+    <form action="login" method="POST">
+        <label for="username">User name:</label><br>
+        <input type="text" id="username" name="username" required><br>
+
+        <br><label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" required><br>
+
+        <br><button type="submit">Login</button>
+    </form>
+</div>
+</body>
+</html>
