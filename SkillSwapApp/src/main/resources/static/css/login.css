@@ -2,7 +2,7 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     height: 100vh;
-    background-image: url('../images/login_image.webp');
+    background-image: url('/images/login_image.webp');
     background-size: cover;
     background-position: center center;
     background-attachment: fixed;
@@ -14,11 +14,11 @@ body {
     border-radius: 15px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     width: 310px;
-    height: 160px;
+    height: auto;
     position: absolute;
-    top: 80px;
-    left: 16.5%;
-    transform: translateX(-50%);
-    line-height: 15px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    line-height: 1.5;
     text-align: center;
 }
