@@ -12,21 +12,21 @@ services:
     networks:
       - spring-boot-network
   spring:
-    image: 'postgres:latest'
+    image: skill-swap-app
     container_name: SkillSwapApplication
+    build:
+      context: .
+      dockerfile: Dockerfile
     ports:
       - "8080:8080"
-    environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=pass
-      - DOCKER_HOST=pipe:////./pipe/dockerEngine
     depends_on:
       - db
     networks:
       - spring-boot-network
+    environment:
+      - SPRING_DATASOURCE_URL=jdbc:postgresql://db:5432/SkillSwap
+      - SPRING_DATASOURCE_USERNAME=user
+      - SPRING_DATASOURCE_PASSWORD=pass
 networks:
   spring-boot-network:
     driver: bridge
-
-
-
